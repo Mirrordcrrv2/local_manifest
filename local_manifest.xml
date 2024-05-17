@@ -12,7 +12,7 @@
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768.git" remote="R3" revision="Paradox-SLMK" clone-depth="1"/>
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="R2" revision="lineage-21" clone-depth="1"/>
   <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx.git" remote="R2" revision="lineage-21" clone-depth="1"/>
-  <project path="device/mediatek/sepolicy_vndr" name=" android_device_mediatek_sepolicy_vndr.git" remote="R4" revision="lineage-21" clone-depth="1"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="R4" revision="lineage-21" clone-depth="1"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="R4" revision="lineage-21" clone-depth="1"/>
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="R2" revision="lineage-21" clone-depth="1"/>
   </manifest>
