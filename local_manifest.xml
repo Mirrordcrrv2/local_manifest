@@ -7,7 +7,7 @@
 <!-- Device Trees -->
   <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx.git" remote="ac" revision="Pixel-14" clone-depth="1"/>
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="ac" revision="lineage-21" clone-depth="1"/>
-  <project path="kernel/xiaomi/mt6768" name="KernelTree.git" remote="sv" revision="Paradox-SLMK" clone-depth="1"/>
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768.git" remote="sv" revision="Paradox-SLMK" clone-depth="1"/>
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="ac" revision="lineage-21" clone-depth="1"/>
   <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx.git" remote="ac" revision="lineage-21" clone-depth="1"/>
 </manifest>
