@@ -4,8 +4,6 @@
   <!-- <remote name="dev" fetch="https://github.com/mt6768-dev" /> -->
   <remote name="me" fetch="https://github.com/mirrordcrrv2" />
   <remote name="sv" fetch="https://github.com/Soulvibe-Stuff" />
-  <!-- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" /> -->
-  <remote name="mind" fetch="https://gitlab.com/MindTheGapps" />
   <remote name="gitlab" fetch="https://gitlab.com/Shakib-BD" />
   
  <!-- Common Device Tree -->
