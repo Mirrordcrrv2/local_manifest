@@ -2,10 +2,11 @@
 <manifest>
 
   <!-- <remote name="dev" fetch="https://github.com/mt6768-dev" /> -->
-  <remote name="me" fetch="https://github.com/whoarchie" />
+  <remote name="me" fetch="https://github.com/mirrordcrrv2" />
   <remote name="sv" fetch="https://github.com/Soulvibe-Stuff" />
   <!-- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" /> -->
   <remote name="mind" fetch="https://gitlab.com/MindTheGapps" />
+  <remote name="gitlab" fetch="https://gitlab.com/Shakib-BD" />
   
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="me" revision="lineage-21"/>
@@ -24,6 +25,7 @@
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="me" revision="lineage-21"/>
 
+  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab" revision="upsilon" />
  <!--Gapps-->
   <!--project path="vendor/gapps" name="Gapps" remote="me" clone-depth="1" revision="13"/-->
   <!--project path="vendor/gapps" name="vendor_gapps" remote="mind" clone-depth="1" revision="tau"/-->
