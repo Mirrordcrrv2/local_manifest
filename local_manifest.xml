@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- ./device/xiaomi/ -->
+  <project path="device/xiaomi/merlinx" name="Mirrordcrrv2/android_device_xiaomi_merlinx" remote="github" revision="aosp-14"/>
+  <project path="device/xiaomi/mt6768-common" name="nahhk-aosp/android_device_xiaomi_mt6768-common" remote="github" revision="aosp-14"/>
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20"/>
 
-  <!-- <remote name="dev" fetch="https://github.com/mt6768-dev" /> -->
-  <remote name="me" fetch="https://github.com/mirrordcrrv2" />
-  <remote name="sv" fetch="https://github.com/Soulvibe-Stuff" />
-  <remote name="svv" fetch="https://github.com/mt6768-dev" />
-  
- <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="svv" revision="lineage-20"/>
-     
- <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="me" revision="lineage-21"/>
+  <!-- ./vendor/xiaomi/ -->
+  <project path="vendor/xiaomi" name="nahhk-aosp/proprietary_vendor_xiaomi" remote="github" revision="aosp-14"/>
 
- <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="sv" revision="tom"/>
+  <!-- ./kernel/xiaomi/ -->
+  <project path="kernel/xiaomi/mt6768" name="nahhk-aosp/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/lts"/>
 
- <!-- vendor Common Trees-->
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="me" revision="lineage-20"/>
+  <!-- ./hardware/ -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-20"/>
 
- <!--vendor tree-->
-  <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="me" revision="lineage-21"/>
- <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="me" revision="lineage-20"/>
-
-
-</manifest>
+  <!-- My Optional Repos -->
+  <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="master"/>
+</manifest>  
